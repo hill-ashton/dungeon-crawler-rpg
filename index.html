@@ -1,49 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>+TEMPO</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hollis Adventures</title>
 </head>
-
 <body>
+    <div class="game-container">
+        <div class="image-area">
+            <div class="image-placeholder" id="gameImage">
+                <img src="assets/hollisstore.jpg" alt="">
+            </div>
+        </div>
 
-  <!-- Navbar -->
-  <header class="navbar">
-    <div class="title">
-      <div class="logo">+TEMPO</div>
-      
-    </div> 
-    <nav class="nav-links">
-        <a href="#">home</a>
-        <a href="shop.html">shop</a>
-        <a href="#lookbook">lookbook</a>
-        <a href="#about">about</a>
-      </nav>
-  </header>
+        <div class="text-area" id="textArea">
+            <div class="text-line system">Welcome to Hollis Deli</div>
+            <div class="text-line">You find yourself in front of a vibrant deli. Fent demons on the corner, begging for a dollar to fund their chopped cheese.</div>
+            <div class="text-line">The smell of chicken cutlet sandwiches and fish over rices fill your nose.</div>
+            <div class="text-line system">Type 'help' for available commands.</div>
+        </div>
 
-  <!-- Main Content -->
-  <main>
-
-    <!-- Hero Section -->
-    
-
-
-    </section>
-
-    <section class="hero">
-
-     
-    </section>
-
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <p>&copy; 2025 +TEMPO. All rights reserved.</p>
-  </footer>
-
+        <div class="input-area">
+            <span class="prompt">&gt;</span>
+            <input type="text" class="command-input" id="commandInput" placeholder="Enter command..." autofocus>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
